@@ -17,7 +17,7 @@ defineProps({
 });
 
 const state = reactive({
-  jobs: [],
+  jobs: jobs,
   isLoading: false,
 });
 
