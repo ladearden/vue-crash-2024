@@ -1,3 +1,4 @@
+<!-- Compositions API -->
 <script setup>
 import { ref, onMounted } from 'vue';
 
@@ -50,7 +51,7 @@ onMounted(async () => {
     <button type="submit">Submit</button>
   </form>
 
-  <h3>Tasks:</h3>
+  <!-- <h3>Tasks:</h3>
   <ul>
     <li v-for="(task, index) in tasks" :key="task">
       <span>
@@ -58,7 +59,7 @@ onMounted(async () => {
       </span>
       <button @click="deleteTask(index)">x</button>
     </li>
-  </ul>
+  </ul> -->
   <br />
   <!-- <button v-on:click="toggleStatus">Change Status</button> -->
   <button @click="toggleStatus">Change Status</button>
